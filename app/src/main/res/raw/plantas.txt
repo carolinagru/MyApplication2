@@ -1,0 +1,10 @@
+lechuga;
+tomate;
+naranja;
+limon;
+zanahoria;
+pelon;
+frutilla;
+damazco;
+cebolla;
+papa;

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cultivo</string>
+    <string name="txt_nombre">Ingrese Fruta/Hortaliza</string>
+    <string name="boton">Buscar</string>
+    <string name="button2">Crear</string>
+    <string name="ImagenDescripcion">Imagen</string>
+    <string name="texto"></string>
+    <string name="Boton1">Insertar Imagen</string>
+    <string name="Boton2">Crear</string>
+    <string name="textoCreado"> </string>
+    <string name="nombreCreado">Ingrese nombre </string>
+    <string name="imagenCreado">Ingrese imagen </string>
+</resources>
