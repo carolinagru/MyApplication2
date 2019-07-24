@@ -31,6 +31,7 @@ public class Descripcion extends AppCompatActivity {
         nombre = nombre.toLowerCase();
         text = findViewById(R.id.texto);
         agregarDescripcion();
+
         text.setMovementMethod(new ScrollingMovementMethod());
     }
 
