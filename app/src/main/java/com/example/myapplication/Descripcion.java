@@ -46,20 +46,15 @@ public class Descripcion extends AppCompatActivity {
           String completo = convertirBytes(leer);
           text.setText(completo);
           leer.close();
-
-
     } catch (IOException e){}
     }
 
-    public String convertirBytes( InputStream inputStream ) throws IOException
-    {
+    public String convertirBytes( InputStream inputStream ) throws IOException {
         ByteArrayOutputStream b = new ByteArrayOutputStream();
         byte[] bytes = new byte[4096];
         int len=0;
         while ( (len=inputStream.read(bytes))>0 )
-        {
             b.write(bytes,0,len);
-        }
         return new String( b.toByteArray(),"UTF8");
     }
 }
